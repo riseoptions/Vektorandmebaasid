@@ -170,7 +170,7 @@ Need Python teegid pakuvad erinevaid funktsioone ja võimekusi, et aidata kõrge
 
 
 
-# Täiendavad Python Teegid Vektorandmebaasidega
+# Täiendavad Python Teegid Tööks Vektorandmebaasidega
 
 Siin on mõned täiendavad Python teegid, mis on kasulikud vektorandmebaaside ja kõrgedimensionaalsete andmete töötlemise kontekstis:
 
