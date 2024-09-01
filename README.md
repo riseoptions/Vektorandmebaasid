@@ -166,3 +166,42 @@ Need tehnoloogiad pakuvad erinevaid funktsioone ja integreerimisvõimalusi, et v
 - **Kasutusjuhtumid**: Otsing, soovitussüsteemid, semantiline otsing.
 
 Need Python teegid pakuvad erinevaid funktsioone ja võimekusi, et aidata kõrgedimensionaalsete andmete tõhusas haldamises ja töötlemises.
+
+
+
+
+# Täiendavad Python Teegid Vektorandmebaasidega
+
+Siin on mõned täiendavad Python teegid, mis on kasulikud vektorandmebaaside ja kõrgedimensionaalsete andmete töötlemise kontekstis:
+
+## PyTorch
+
+- **Kirjeldus**: Populaarne avatud lähtekoodiga masinõppe raamistik, mis pakub tuge vektorite ja süvaõppe mudelite töötlemiseks.
+- **Omadused**: Toetab dünaamilist graafi, GPU kiirendust, ulatuslikku masinõppe mudelite kogu.
+- **Kasutusjuhtumid**: Süvaõpe, vektorite genereerimine, mudeleid koolitamine.
+
+## TensorFlow
+
+- **Kirjeldus**: Google'i arendatud masinõppe raamistik, mis toetab vektorite töötlemist ja süvaõppe mudelite loomist.
+- **Omadused**: Laialdane raamistik, mis toetab nii CPU kui GPU arvutust, integreeritud tööriistade kogum andmete töötlemiseks.
+- **Kasutusjuhtumid**: Süvaõpe, vektorite genereerimine, masinõppe mudelite koolitamine.
+
+## FAISS
+
+- **Kirjeldus**: Facebooki loodud vektorite lähimate naabrite otsimise teek, mis on optimeeritud suurte vektorite kogumite töötlemiseks.
+- **Omadused**: Kõrge jõudlus, toetab erinevaid indekseerimismeetodeid, sealhulgas HNSW ja IVF.
+- **Kasutusjuhtumid**: Vektorite sarnastelementide otsing, suurandmete töötlemine.
+
+## Hnswlib
+
+- **Kirjeldus**: Kerge ja efektiivne teek, mis rakendab Hierarchical Navigable Small World (HNSW) algoritmi lähimate naabrite otsimiseks.
+- **Omadused**: Kiire ja täpne, toetab erinevaid mõõtmeid ja vektorite andmeformaatide haldamist.
+- **Kasutusjuhtumid**: Otsing, semantiline analüüs, soovitussüsteemid.
+
+## PyMilvus
+
+- **Kirjeldus**: Python API Milvuse jaoks, mis pakub lihtsat viisi Milvuse vektorandmebaasi kasutamiseks.
+- **Omadused**: Lihtne integreerimine, täiendav tugi Milvuse omaduste ja päringute haldamiseks.
+- **Kasutusjuhtumid**: Vektorandmebaaside haldamine, päringud, andmete töötlemine.
+
+Need täiendavad teegid pakuvad mitmesuguseid tööriistu ja võimekusi, et täiustada vektorandmebaaside haldamist ja töötlemist, lisades suuremat paindlikkust ja efektiivsust teie andmeanalüüsi ja masinõppe rakendustes.
