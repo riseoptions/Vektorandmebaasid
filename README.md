@@ -95,3 +95,40 @@ Raamistikud nagu Apache Spark ja Hadoop võimaldavad suuremahulist andmetöötlu
 ### 5. Andmesalvestus ja infrastruktuur
 
 Pilvepõhised salvestuslahendused (nt Amazon S3, Google Cloud Storage) ja konteineriseerimisriistad (nt Docker, Kubernetes) pakuvad usaldusväärseid salvestus- ja juurutamisvõimalusi vektorandmebaaside jaoks.
+
+
+# Tehnoloogiate Ülevaade
+
+Siin on lühike ülevaade viiest vektorandmebaasi tehnoloogiast:
+
+## Pinecone
+
+- **Kirjeldus**: Pinecone on täielikult hallatav vektorandmebaas, mis keskendub kiirele ja mastaabitavale vektorotsingule. See pakub lihtsat integratsiooni ja on optimeeritud madala latentsuse ja suure läbilaskevõime jaoks.
+- **Omadused**: Täielikult hallatud teenus, automaatne skaleerimine, integreeritud masinõppemudelite tugi, kõrgedimensionaalsete andmete indekseerimine ja päringud.
+- **Kasutusjuhtumid**: Masinõpe, personaliseerimine, soovitussüsteemid, otsing.
+
+## Zilliz
+
+- **Kirjeldus**: Zilliz on andmeplatvorm, mis pakub Milvuse baasil töötavat vektorandmebaasi koos lisafunktsioonidega, nagu andmeanalüütika ja masinõpe. See on loodud skaleeritavuse ja jõudluse tagamiseks.
+- **Omadused**: Avatud lähtekoodiga vektorandmebaas, kõrgjõudlusega indeksid (nt HNSW), pilve- ja hajutatud arhitektuur, integreeritud masinõppemudelite tugi.
+- **Kasutusjuhtumid**: Suurandmete analüüs, AI-põhised rakendused, pildi- ja videosisendi töötlemine.
+
+## Weaviate
+
+- **Kirjeldus**: Weaviate on avatud lähtekoodiga vektorandmebaas, mis toetab semantilist otsingut ja kontekstipõhiseid päringuid. See võimaldab lihtsat ja intuitiivset integratsiooni erinevate masinõppe tööriistade ja andmetega.
+- **Omadused**: Semantiline otsing, toetab erinevaid andmetüüpe (tekst, pildid), integreerub masinõppe ja NLP mudelitega, hajutatud arhitektuur.
+- **Kasutusjuhtumid**: Loomuliku keele töötlus (NLP), semantiline otsing, soovitussüsteemid.
+
+## Milvus
+
+- **Kirjeldus**: Milvus on avatud lähtekoodiga vektorandmebaas, mis on loodud spetsiaalselt AI ja suurandmete rakenduste jaoks. See toetab suurt jõudlust ja skaleeritavust ning on optimeeritud kõrgedimensionaalsete andmete otsinguks ja töötlemiseks.
+- **Omadused**: Avatud lähtekoodiga, toetab mitmeid indekseerimismeetodeid (HNSW, IVF), horisontaalne skaleeritavus, pilvepõhised ja lokaalsed juurutamisvõimalused.
+- **Kasutusjuhtumid**: Pildi- ja videotöötlus, geneetika, molekulaaruuringud, soovitussüsteemid.
+
+## ChromaDB
+
+- **Kirjeldus**: ChromaDB on andmebaas, mis on spetsiaalselt loodud vektorite ja metaandmete haldamiseks. See on avatud lähtekoodiga ja võimaldab kasutajatel tõhusalt hallata ja pärida vektoriandmeid koos seotud metaandmetega.
+- **Omadused**: Avatud lähtekoodiga, optimeeritud vektorite ja metaandmete integreeritud töötlemiseks, paindlik ja laiendatav arhitektuur.
+- **Kasutusjuhtumid**: Anomaaliate tuvastamine, personaliseeritud otsing, kontekstipõhine päring.
+
+Need tehnoloogiad pakuvad erinevaid funktsioone ja integreerimisvõimalusi, et vastata erinevate kõrgedimensionaalsete andmete haldamise ja otsingu vajadustele.
