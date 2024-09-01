@@ -97,6 +97,9 @@ Raamistikud nagu Apache Spark ja Hadoop võimaldavad suuremahulist andmetöötlu
 Pilvepõhised salvestuslahendused (nt Amazon S3, Google Cloud Storage) ja konteineriseerimisriistad (nt Docker, Kubernetes) pakuvad usaldusväärseid salvestus- ja juurutamisvõimalusi vektorandmebaaside jaoks.
 
 
+
+
+
 # Tehnoloogiate Ülevaade
 
 Siin on lühike ülevaade viiest vektorandmebaasi tehnoloogiast:
@@ -132,3 +135,34 @@ Siin on lühike ülevaade viiest vektorandmebaasi tehnoloogiast:
 - **Kasutusjuhtumid**: Anomaaliate tuvastamine, personaliseeritud otsing, kontekstipõhine päring.
 
 Need tehnoloogiad pakuvad erinevaid funktsioone ja integreerimisvõimalusi, et vastata erinevate kõrgedimensionaalsete andmete haldamise ja otsingu vajadustele.
+
+
+
+## Python Teegid
+
+### Gensim
+- **Kirjeldus**: Raamistik, mis pakub tööriistu sõnade ja dokumentide vektorite loomiseks ja haldamiseks.
+- **Omadused**: Toetab Word2Vec, FastText ja muid sõnaembeddingute mudeleid, lihtne kasutamine.
+- **Kasutusjuhtumid**: Teksti töötlemine, semantiline analüüs, dokumentide sarnasuse hindamine.
+
+### FastText
+- **Kirjeldus**: Facebooki loodud teek, mis keskendub sõnade ja fraaside kiirele embeddingule.
+- **Omadused**: Tõhus ja kiire, toetab alamsõnade embeddingute loomist, toetab erinevaid keeli.
+- **Kasutusjuhtumid**: Teksti klassifitseerimine, otsing, semantiline analüüs.
+
+### spaCy
+- **Kirjeldus**: Tõhus NLP raamistik, mis pakub sõna- ja lauseembeddingute genereerimist.
+- **Omadused**: Kiire ja täpne, toetab mitmeid NLP ülesandeid (nt nimede äratundmine, süntaktiline analüüs).
+- **Kasutusjuhtumid**: Teksti analüüs, nimede äratundmine, sentimentanalüüs.
+
+### scikit-learn
+- **Kirjeldus**: Masinõppe raamistik, mis sisaldab tööriistu vektorite töötlemiseks ja klassifikatsiooniks.
+- **Omadused**: Lai valik masinõppe algoritme, toetab andmeeesitamise ja -töötluse tööriistu.
+- **Kasutusjuhtumid**: Klassifikatsioon, regressioon, klasterdamine.
+
+### Annoy
+- **Kirjeldus**: Teek, mis on loodud lähimate naabrite kiireks otsimiseks suurtes vektorite kogumites.
+- **Omadused**: Eriti optimeeritud suure hulga vektorite töötlemiseks, toetab efekteivset lähenemisviisi.
+- **Kasutusjuhtumid**: Otsing, soovitussüsteemid, semantiline otsing.
+
+Need Python teegid pakuvad erinevaid funktsioone ja võimekusi, et aidata kõrgedimensionaalsete andmete tõhusas haldamises ja töötlemises.
